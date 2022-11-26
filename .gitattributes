@@ -1,0 +1,7 @@
+# See https://git-scm.com/docs/gitattributes for more about git attribute files.
+
+# Mark the database schema as having been generated.
+/front-end/for_do_frontend/db/schema.rb linguist-generated
+
+# Mark any vendored files as having been vendored.
+/front-end/for_do_frontend/vendor/* linguist-vendored
