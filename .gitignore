@@ -8,20 +8,20 @@
 # Ignore all logfiles and tempfiles.
 /for_do_frontend/log/*
 /for_do_frontend/tmp/*
-/for_do_frontend!/log/.keep
-/for_do_frontend!/tmp/.keep
+/for_do_frontend/log/.keep
+/for_do_frontend/tmp/.keep
 
 # Ignore pidfiles, but keep the directory.
 /for_do_frontend/tmp/pids/*
-/for_do_frontend!/tmp/pids/
-/for_do_frontend!/tmp/pids/.keep
+/for_do_frontend/tmp/pids/
+/for_do_frontend/tmp/pids/.keep
 
 # Ignore uploaded files in development.
 /for_do_frontend/storage/*
-/for_do_frontend!/storage/.keep
+/for_do_frontend/storage/.keep
 /for_do_frontend/tmp/storage/*
-/for_do_frontend!/tmp/storage/
-/for_do_frontend!/tmp/storage/.keep
+/for_do_frontend/tmp/storage/
+/for_do_frontend/tmp/storage/.keep
 
 /for_do_frontend/public/assets
 
