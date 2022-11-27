@@ -21,10 +21,10 @@ services:
       - db_data:/var/lib/postgresql/data
     
   frontend:
-    build: ./for_do_frontend
+    build: ./frontend_for_do
     command: sh -c "rm -f tmp/pids/server.pid && bundle exec rails s -p 3000 -b '0.0.0.0'"
     volumes:
-      - ./for_do_frontend:/for_do_frontend
+      - ./frontend_for_do:/frontend_for_do
     ports:
       - "3000:3000"
     tty: true

@@ -7,30 +7,30 @@
 #   git config --global core.excludesfile '~/.gitignore_global'
 
 # Ignore bundler config.
-/for_do_frontend/.bundle
+/frontend_for_do/.bundle
 
 # Ignore all logfiles and tempfiles.
-/for_do_frontend/log/*
-/for_do_frontend/tmp/*
-/for_do_frontend/!/log/.keep
-/for_do_frontend/!/tmp/.keep
+/frontend_for_do/log/*
+/frontend_for_do/tmp/*
+/frontend_for_do/!/log/.keep
+/frontend_for_do/!/tmp/.keep
 
 # Ignore pidfiles, but keep the directory.
-/for_do_frontend/tmp/pids/*
-/for_do_frontend/!/tmp/pids/
-/for_do_frontend/!/tmp/pids/.keep
+/frontend_for_do/tmp/pids/*
+/frontend_for_do/!/tmp/pids/
+/frontend_for_do/!/tmp/pids/.keep
 
 # Ignore uploaded files in development.
-/for_do_frontend/storage/*
-/for_do_frontend/!/storage/.keep
-/for_do_frontend/tmp/storage/*
-/for_do_frontend/!/tmp/storage/
-/for_do_frontend/!/tmp/storage/.keep
+/frontend_for_do/storage/*
+/frontend_for_do/!/storage/.keep
+/frontend_for_do/tmp/storage/*
+/frontend_for_do/!/tmp/storage/
+/frontend_for_do/!/tmp/storage/.keep
 
-/for_do_frontend/public/assets
+/frontend_for_do/public/assets
 
 # Ignore master key for decrypting credentials and more.
-/for_do_frontend/config/master.key
+/frontend_for_do/config/master.key
 
 # ignore envs
-/for_do_frontend/env
+/frontend_for_do/env
